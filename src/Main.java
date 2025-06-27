@@ -36,7 +36,7 @@ public class Main {
                     System.out.print("Enter Policy Number to Remove: ");
                     int removeNum = sc.nextInt();
                     manager.removePolicy(removeNum);
-                    break;//add
+                    break;
 
                 case 3:
                     System.out.print("Enter Policy Number to Update: ");
@@ -49,7 +49,7 @@ public class Main {
                     System.out.print("Enter New Coverage Amount: ");
                     double newAmount = sc.nextDouble();
                     manager.updatePolicy(updateNum, newName, newType, newAmount);
-                    break;//add
+                    break;
 
                 case 4:
                     System.out.print("Enter Insurance Type to List: ");
