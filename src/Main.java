@@ -36,7 +36,7 @@ public class Main {
                     System.out.print("Enter Policy Number to Remove: ");
                     int removeNum = sc.nextInt();
                     manager.removePolicy(removeNum);
-                    break;
+                    break;//add
 
                 case 3:
                     System.out.print("Enter Policy Number to Update: ");
