@@ -49,7 +49,7 @@ public class Main {
                     System.out.print("Enter New Coverage Amount: ");
                     double newAmount = sc.nextDouble();
                     manager.updatePolicy(updateNum, newName, newType, newAmount);
-                    break;
+                    break;//add
 
                 case 4:
                     System.out.print("Enter Insurance Type to List: ");
